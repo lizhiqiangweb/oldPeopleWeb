@@ -32,31 +32,31 @@ export default {
         },
         {
           name: '老年设施',
-          path: '/'
+          path: '/facilities'
         },
         {
           name: '老年人医疗',
-          path: '/'
+          path: '/medical'
         },
         {
           name: '老年人看护',
-          path: '/'
+          path: '/nurse'
         },
         {
           name: '老年人保险',
-          path: '/'
+          path: '/insurance'
         },
         {
           name: '老年人旅游',
-          path: '/'
+          path: '/tourism'
         },
         {
           name: '老年人疾病及心理健康及保健',
-          path: '/'
+          path: '/healthy'
         },
         {
           name: '老年人商城',
-          path: '/'
+          path: '/shopping'
         }
       ],
       bannerList: [{
