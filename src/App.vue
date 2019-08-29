@@ -55,7 +55,6 @@ img {
 .fade-leave-active {
   transition: all .3s ease-in;
   transform: scale(.8);
-
 }
 
 .fade-enter,

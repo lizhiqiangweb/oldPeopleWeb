@@ -118,8 +118,6 @@ export default {
 
   computed: {},
 
-  mounted: {},
-
   methods: {}
 }
 </script>
@@ -215,20 +213,25 @@ export default {
 .service {
   width: 1200px;
   margin: 125px auto 0;
+
   h2 {
     margin: 0 auto 60px;
     text-align: center;
   }
+
   .serviceBox {
     .serviceItem {
       margin: 0 45px 120px;
+
       img {
         margin: 0 auto 24px;
       }
+
       h4 {
         margin: 0 0 34px 0;
         text-align: center;
       }
+
       p {
         width: 290px;
         line-height: 1.6;
