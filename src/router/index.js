@@ -8,6 +8,7 @@ import insurance from '@/components/insurance'
 import tourism from '@/components/tourism'
 import healthy from '@/components/healthy'
 import shopping from '@/components/shopping'
+import homeFindContent from '@/components/homeFindContent'
 
 Vue.use(Router)
 
@@ -52,6 +53,11 @@ export default new Router({
       path: '/shopping',
       name: 'shopping',
       component: shopping
+    },
+    {
+      path: '/homeFindContent',
+      name: 'homeFindContent',
+      component: homeFindContent
     }
   ]
 })

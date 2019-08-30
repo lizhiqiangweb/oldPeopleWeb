@@ -53,12 +53,28 @@ img {
 // 全局动画
 .fade-enter-active,
 .fade-leave-active {
-  transition: all .3s ease-in;
+  transition: all .5s ease-in;
   transform: scale(.8);
 }
 
 .fade-enter,
 .fade-leave-active {
   opacity: 0;
+}
+
+.show-enter-active,
+.show-leave-active {
+  transition: all .5s ease-in;
+}
+
+.show-enter,
+.show-leave-active {
+  opacity: 0;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 50px 0;
 }
 </style>
