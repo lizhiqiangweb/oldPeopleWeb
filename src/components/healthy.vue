@@ -217,11 +217,6 @@ export default {
     span:hover {
       cursor: pointer;
     }
-
-    .tabActive {
-      background: #038489;
-      color: #fff;
-    }
   }
 
   .healthyContent {

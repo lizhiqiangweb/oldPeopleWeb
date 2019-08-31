@@ -77,4 +77,9 @@ img {
   justify-content: center;
   padding: 50px 0 50px 0;
 }
+// tab切换active
+.tabActive {
+  background: #038489 !important;
+  color: #fff;
+}
 </style>
