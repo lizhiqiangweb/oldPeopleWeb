@@ -1,15 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import home from '@/components/home'
-import facilities from '@/components/facilities'
-import medical from '@/components/medical'
-import nurse from '@/components/nurse'
-import insurance from '@/components/insurance'
-import tourism from '@/components/tourism'
-import healthy from '@/components/healthy'
-import shopping from '@/components/shopping'
-import homeFindContent from '@/components/homeFindContent'
-
 Vue.use(Router)
 
 export default new Router({
@@ -17,47 +7,47 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: home
+      component: resolve => require(['@/components/home'], resolve)
     },
     {
       path: '/facilities',
       name: 'facilities',
-      component: facilities
+      component: resolve => require(['@/components/facilities'], resolve)
     },
     {
       path: '/medical',
       name: 'medical',
-      component: medical
+      component: resolve => require(['@/components/medical'], resolve)
     },
     {
       path: '/nurse',
       name: 'nurse',
-      component: nurse
+      component: resolve => require(['@/components/nurse'], resolve)
     },
     {
       path: '/insurance',
       name: 'insurance',
-      component: insurance
+      component: resolve => require(['@/components/insurance'], resolve)
     },
     {
       path: '/tourism',
       name: 'tourism',
-      component: tourism
+      component: resolve => require(['@/components/tourism'], resolve)
     },
     {
       path: '/healthy',
       name: 'healthy',
-      component: healthy
+      component: resolve => require(['@/components/healthy'], resolve)
     },
     {
       path: '/shopping',
       name: 'shopping',
-      component: shopping
+      component: resolve => require(['@/components/shopping'], resolve)
     },
     {
       path: '/homeFindContent',
       name: 'homeFindContent',
-      component: homeFindContent
+      component: resolve => require(['@/components/homeFindContent'], resolve)
     }
   ]
 })

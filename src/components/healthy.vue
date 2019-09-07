@@ -198,6 +198,10 @@ export default {
     justify-content: center;
     margin: 0 auto 120px;
 
+    .tabActive {
+      color: #fff;
+    }
+
     span {
       display: block;
       width: 380px;
